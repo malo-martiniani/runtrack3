@@ -6,5 +6,5 @@ function addone() {
 
 const button = document.getElementById('button');
 if (button) {
-	button.addEventListener('click', addone);
-}   
+	button.addEventListener('mousedown', addone);
+}
